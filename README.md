@@ -1,4 +1,4 @@
-# Test linting with flake-parts
+# Test repo for issue numtide/treefmt-nix#78
 
 ## Init
 
@@ -14,3 +14,7 @@ inside mkFlake
     imports = [
       inputs.treefmt-nix.flakeModule
     ];
+
+## Run command twice
+
+nix flake show
